@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <form method="GET" action="cotacao.php" >  
+    <form method="$_GET" action="cotacao.php" >  
         <h1> XD Investimentos </h1>
         <div class="input-group">
         <label>Valor em Reais</label>
@@ -19,15 +19,17 @@
     
     
         <div>
-        <label>Conveter em:</label><br><br>
-        <label>Dolares</label>
-        <input type="radio" id="dolares" name="sistema"  />
+            <label>Conveter em:</label><br><br>
+            <label>Dolares</label>
+            <input ip="dolares" type="radio" name="sistema" value="dolares" />
         </div>
 
         <div>
-        <label>Euros</label>
-        <input type="radio"  id="euros" name="sistema"  />
+            <label>Euros</label>
+            <input ip="euros" type="radio"  name="sistema" value="euros" />
         </div>
+
+
         <br>
         <button>Calcular</button>
     </form>
